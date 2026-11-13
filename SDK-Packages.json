@@ -3,99 +3,63 @@
   "packages": [
     {
       "directory": "packaging/native",
-      "build_system": "CMake",
-      "registry_recipes": {
-        "vcpkg": "packaging/native/portfile.cmake",
-        "Conan": "packaging/native/conanfile.py",
-        "NuGet": [
-          "packaging/native/TitanCSA.FyraDevice.Native.nuspec"
-        ]
-      },
-      "distribution": "Shared native source; registry publication is reported separately below"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/packaging/native",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-C-ffi",
-      "distribution": "Native C ABI adapter to the original project SDK",
-      "dll": "FyraDeviceJsonSDK.dll",
-      "api_prefix": "fyradevice_json_"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-C-ffi",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-Python-pypi",
-      "language": "Python",
-      "registry": "pypi",
-      "name": "fyradevice",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-Python-pypi",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-Ruby-rubygems",
-      "language": "Ruby",
-      "registry": "rubygems",
-      "name": "fyradevice",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-Ruby-rubygems",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-Go-modules",
-      "language": "Go",
-      "registry": "modules",
-      "name": "fyradevice",
-      "version": "v1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-Go-modules",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-Rust-cargo",
-      "language": "Rust",
-      "registry": "cargo",
-      "name": "fyradevice",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-Rust-cargo",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-Java-maven",
-      "language": "Java",
-      "registry": "maven",
-      "name": "fyradevice",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-Java-maven",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-Dart-pub-dev",
-      "language": "Dart",
-      "registry": "pub-dev",
-      "name": "fyradevice",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-Dart-pub-dev",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-JavaScript-npm",
-      "language": "JavaScript",
-      "registry": "npm",
-      "name": "fyradevice",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-JavaScript-npm",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-NET-nuget",
-      "language": "NET",
-      "registry": "nuget",
-      "name": "FyraDevice.SDK",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-NET-nuget",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "FyraDevice-PowerShell-gallery",
-      "language": "PowerShell",
-      "registry": "gallery",
-      "name": "FyraDevice",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/FyraDevice-PowerShell-gallery",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "packaging/conda",
-      "language": "Python",
-      "registry": "conda-forge",
-      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/packaging/conda",
+      "location": "central_sdk_repository"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
@@ -186,8 +150,7 @@
       "v1_source_build_tests_passed": true,
       "personal_maintainer_confirmation_required": true,
       "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35636",
-      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
-      "github_directory": "packaging/conda"
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation"
     },
     "Rust/cargo": {
       "status": "published_install_verified",
@@ -316,5 +279,8 @@
       "repository": "https://github.com/TitanCSA/fyradevice-php"
     }
   },
-  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
+  "coverage_note": "SDK source directories moved to central repository. Product source, prior tags and original releases are separate.",
+  "central_sdk_repository": "https://github.com/TitanCSA/sdk-packages",
+  "central_sdk_directory": "projects/FyraDevice",
+  "central_sdk_source_commit": "5da8260cfafc42181dbcca6196868d049f2b3ebb"
 }

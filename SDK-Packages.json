@@ -203,7 +203,7 @@
       "api_prefix": "fyradevice_json_"
     },
     "JavaScript/npm": {
-      "status": "awaiting_browser_publication_authentication",
+      "status": "registry_publication_requires_action",
       "name": "fyradevice",
       "version": "1.0.0",
       "directory": "FyraDevice-JavaScript-npm",

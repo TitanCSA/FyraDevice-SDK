@@ -1,8 +1,6 @@
 # FyraDevice .NET8 SDK
 
-Package ID `FyraDevice.SDK`. NuGet upload remains on hold at owner request.
-
-```csharp
+Package ID `FyraDevice.SDK`. ```csharp
 using var client=new TitanCSA.Products.FyraDevice.Client();
 string statusJson=client.Call("status", "{}");
 ```

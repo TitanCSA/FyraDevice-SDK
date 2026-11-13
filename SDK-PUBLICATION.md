@@ -5,11 +5,11 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Target | Status | Package / documentation |
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | fyradevice |
-| CPP/conan | public_recipe_builds_locally |  [Source](packaging/native/) |
+| CPP/conan | published_custom_source_index | [fyradevice](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
 | CPP/nuget | paused_pending_owner_email_confirmation | FyraDevice.Native |
 | NET/nuget | built_verified_publication_on_hold_by_owner | FyraDevice.SDK [Source](FyraDevice-NET-nuget/) |
 | Python/pypi | built_fixture_and_production_verified | fyradevice [Source](FyraDevice-Python-pypi/) |
-| Python/conda-forge | built_tested_requires_source_publication_and_official_review | fyradevice [Source](packaging/conda/) |
+| Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [fyradevice](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [fyradevice](https://crates.io/crates/fyradevice) [Source](FyraDevice-Rust-cargo/) |
 | JavaScript/npm | awaiting_browser_publication_authentication | [fyradevice](https://www.npmjs.com/package/fyradevice) [Source](FyraDevice-JavaScript-npm/) |
 | Java/maven | published_install_verified | [fyradevice](https://central.sonatype.com/artifact/io.github.titancsa/fyradevice/1.0.0) [Source](FyraDevice-Java-maven/) |

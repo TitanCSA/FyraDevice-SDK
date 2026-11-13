@@ -12,6 +12,76 @@
         ]
       },
       "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "FyraDevice-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "FyraDeviceJsonSDK.dll",
+      "api_prefix": "fyradevice_json_"
+    },
+    {
+      "directory": "FyraDevice-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "fyradevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "FyraDevice-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "fyradevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "FyraDevice-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "fyradevice",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "FyraDevice-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "fyradevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "FyraDevice-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "fyradevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "FyraDevice-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "fyradevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "FyraDevice-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "FyraDevice.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "FyraDevice-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "FyraDevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",

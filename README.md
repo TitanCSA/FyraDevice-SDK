@@ -27,7 +27,7 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | Go Modules | `github.com/TitanCSA/FyraDevice-SDK/FyraDevice-Go-modules` | `go get github.com/TitanCSA/FyraDevice-SDK/FyraDevice-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/TitanCSA/FyraDevice-SDK/FyraDevice-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/FyraDevice-SDK/FyraDevice-Go-modules@v1.0.0` |
 | PowerShell Gallery | `fyradevice` | `Install-Module FyraDevice -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `fyradevice` | Commande prevue apres publication : `dart pub add fyradevice:1.0.0` |
+| pub.dev | `fyradevice` | `dart pub add fyradevice:1.0.0` |
 | RubyGems | `fyradevice` | `gem install fyradevice -v 1.0.0` |
 | Packagist | `fyradevice` | Commande prevue apres publication : `composer require titancsa/fyradevice:1.0.0` |
 

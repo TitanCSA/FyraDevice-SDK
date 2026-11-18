@@ -26,10 +26,10 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | JitPack | `com.github.TitanCSA:FyraDevice-SDK` | `com.github.TitanCSA:FyraDevice-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/TitanCSA/FyraDevice-SDK/FyraDevice-Go-modules` | `go get github.com/TitanCSA/FyraDevice-SDK/FyraDevice-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/TitanCSA/FyraDevice-SDK/FyraDevice-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/FyraDevice-SDK/FyraDevice-Go-modules@v1.0.0` |
-| PowerShell Gallery | `fyradevice` | `Install-Module FyraDevice -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `FyraDevice` | `Install-Module FyraDevice -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `fyradevice` | `dart pub add fyradevice:1.0.0` |
 | RubyGems | `fyradevice` | `gem install fyradevice -v 1.0.0` |
-| Packagist | `fyradevice` | Commande prevue apres publication : `composer require titancsa/fyradevice:1.0.0` |
+| Packagist | `titancsa/fyradevice` | Commande prevue apres publication : `composer require titancsa/fyradevice:1.0.0` |
 
 Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/FyraDevice/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
 

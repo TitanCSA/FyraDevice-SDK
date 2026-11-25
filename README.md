@@ -1,5 +1,11 @@
 # FyraDevice SDK packages
 
+<!-- simple-start:start -->
+Use virtual devices from your own app with the FyraDevice library.
+
+**Start here.** Choose your language and check which driver your example needs.
+<!-- simple-start:end -->
+
 > [!IMPORTANT]
 > **Contact TitanCSA**
 >

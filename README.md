@@ -1,5 +1,10 @@
 # FyraDevice SDK packages
 
+> [!IMPORTANT]
+> **Contact TitanCSA**
+>
+> On [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send the project name. Ask about commercial licensing, integration or support for this project.
+
 Public Windows x64 user-mode SDK source packages. These folders contain the existing SDK and its licenses; no kernel driver, activation secret or installer is included.
 
 - [Native SDK source and recipes](https://github.com/TitanCSA/sdk-packages/blob/main/projects/FyraDevice/packaging/native/README.txt)
